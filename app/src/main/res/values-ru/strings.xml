@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Войти</string>
+    <string name="registration">Регистрация</string>
+    <string name="password">Пароль</string>
+    <string name="second_name">Фамилия</string>
+    <string name="first_name">Имя</string>
+    <string name="repeat_password">Повторите пароль</string>
+    <string name="i_already_have_an_account">У меня уже есть аккаунт</string>
+    <string name="register">Зарегистрироваться</string>
+</resources>
