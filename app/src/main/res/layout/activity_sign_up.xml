@@ -9,11 +9,11 @@
 
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView"
         app:srcCompat="@drawable/logo"
 
-        android:layout_width="207dp"
-        android:layout_height="134dp"
+        android:layout_width="111dp"
+        android:layout_height="72dp"
 
         android:layout_marginTop="68dp"
 
@@ -29,7 +29,7 @@
 
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="38dp"
 
         android:paddingTop="13dp"
         android:paddingEnd="16dp"
@@ -46,7 +46,7 @@
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/editTextRegSecondName"
@@ -160,19 +160,25 @@
         android:id="@+id/finishRegButton"
 
         android:layout_width="0dp"
-        android:layout_height="44dp"
+        android:layout_height="wrap_content"
 
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
 
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+
         android:backgroundTint="@color/orange"
         android:textColor="@color/white"
 
         android:text="@string/register"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         android:textAlignment="center"
+        android:textAllCaps="false"
 
         app:cornerRadius="4dp"
 
@@ -182,24 +188,29 @@
 
     <Button
         android:id="@+id/closeRegButton"
-        android:layout_width="0dp"
 
-        android:layout_height="44dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="24dp"
 
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+
         android:textColor="@color/orange"
-        android:backgroundTint="@color/purple_background"
+        android:backgroundTint="@color/white_button"
 
         android:text="@string/i_already_have_an_account"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         android:textAlignment="center"
+        android:textAllCaps="false"
 
         app:cornerRadius="4dp"
-        app:strokeColor="@color/white_frame"
-        app:strokeWidth="4dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

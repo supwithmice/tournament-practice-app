@@ -3,16 +3,15 @@ package com.supwithmice.practiceapplication1
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
-import com.supwithmice.practiceapplication1.databinding.ActivityMainBinding
+import com.supwithmice.practiceapplication1.databinding.ActivitySignInAltBinding
 import com.supwithmice.practiceapplication1.databinding.ActivitySignInBinding
 
-class SignIn : AppCompatActivity() {
-    lateinit var binding: ActivitySignInBinding
+class SignInAlt : AppCompatActivity() {
+    lateinit var binding: ActivitySignInAltBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivitySignInBinding.inflate(layoutInflater)
+        binding = ActivitySignInAltBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.loginButton.setOnClickListener {
@@ -20,7 +19,7 @@ class SignIn : AppCompatActivity() {
         }
 
         binding.startRegButton.setOnClickListener {
-            startActivity(Intent(this, SignUp::class.java))
+            startActivity(Intent(this, SignUpAlt::class.java))
         }
     }
 }
