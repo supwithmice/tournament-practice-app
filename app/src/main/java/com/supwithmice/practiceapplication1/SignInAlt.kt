@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import com.supwithmice.practiceapplication1.databinding.ActivitySignInAltBinding
-import com.supwithmice.practiceapplication1.databinding.ActivitySignInBinding
 
 class SignInAlt : AppCompatActivity() {
     lateinit var binding: ActivitySignInAltBinding
@@ -20,6 +19,7 @@ class SignInAlt : AppCompatActivity() {
 
         binding.startRegButton.setOnClickListener {
             startActivity(Intent(this, SignUpAlt::class.java))
+            finish()
         }
     }
 }

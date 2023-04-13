@@ -8,4 +8,8 @@
     <string name="repeat_password">Повторите пароль</string>
     <string name="i_already_have_an_account">У меня уже есть аккаунт</string>
     <string name="register">Зарегистрироваться</string>
+    <string name="back">Назад</string>
+    <string name="enter_email_and_password">Введите E-mail и пароль</string>
+    <string name="enter_details">Заполните поля</string>
+    <string name="wrong_email">Неправильный E-mail</string>
 </resources>

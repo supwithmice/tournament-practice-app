@@ -9,4 +9,8 @@
     <string name="repeat_password">Repeat password</string>
     <string name="i_already_have_an_account">I already have an account</string>
     <string name="register">Register</string>
+    <string name="back">Back</string>
+    <string name="enter_email_and_password">Enter E-mail and password</string>
+    <string name="enter_details">Enter details</string>
+    <string name="wrong_email">Wrong E-mail</string>
 </resources>
